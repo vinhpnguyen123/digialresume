@@ -19,7 +19,7 @@ if selected == "About":
     avatar_col, intro_col = st.columns(2,  gap="large")
 
     with avatar_col:
-        image_path ='/Users/vinhnguyen/Downloads/meo.jpg'
+        image_path ='meo.jpg'
         st.image(image_path, width=300)
 
     with intro_col:
@@ -29,7 +29,7 @@ if selected == "About":
         st.write("")
         st.write("I am a student")
         st.markdown("---")
-        cv_path = '/Users/vinhnguyen/Downloads/Quang Vinh _CV.docx.pdf'
+        cv_path = 'Quang Vinh _CV.docx (2).pdf'
 
         
         # Open the CV file in binary mode
@@ -37,7 +37,7 @@ if selected == "About":
                 btn = st.download_button(
                     label="Download CV",
                     data=file,
-                    file_name="Quang Vinh _CV.docx.pdf",
+                    file_name="Quang Vinh _CV.docx (2).pdf",
                     mime="application/pdf"
                 )
         st.write("✉️"," ","nguyenphamquangvinh1210@gmail.com")
@@ -163,15 +163,15 @@ if selected == "Portfolio":
     
     with tab1:
         st.header("Shoes")
-        st.video("/Users/vinhnguyen/Desktop/Screen Recording 2024-07-12 at 21.54.50.mov")
+        st.video("Screen Recording 2024-07-12 at 21.54.50.mov")
 
     with tab2:
         st.header("Personal web")
-        st.video("/Users/vinhnguyen/Desktop/Screen Recording 2024-07-12 at 21.53.37.mov")
+        st.video("Screen Recording 2024-07-12 at 21.53.37.mov")
 
     with tab3:
         st.header("Sign in page ")
-        st.video("/Users/vinhnguyen/Desktop/Screen Recording 2024-07-12 at 21.58.14.mov")
+        st.video("Screen Recording 2024-07-12 at 21.58.14.mov")
     
     st.write("---")
     st.title("Intern at Tri Viet english center")
@@ -298,7 +298,7 @@ if selected == "Contact":
             container = st.container(border=True)
             container.write("Email")
             container.write("nguyenphamquangvinh1210@gmail.com")
-        cv_path = '/Users/vinhnguyen/Downloads/Quang Vinh _CV.docx.pdf'
+        cv_path = '/Users/vinhnguyen/Downloads/Quang Vinh _CV.docx (2).pdf'
 
         
         # Open the CV file in binary mode
@@ -306,7 +306,7 @@ if selected == "Contact":
                 btn = st.download_button(
                     label="Download CV",
                     data=file,
-                    file_name="Quang Vinh _CV.docx.pdf",
+                    file_name="Quang Vinh _CV.docx (2).pdf",
                     mime="application/pdf"
                 )       
 
