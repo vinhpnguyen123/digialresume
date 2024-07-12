@@ -298,7 +298,7 @@ if selected == "Contact":
             container = st.container(border=True)
             container.write("Email")
             container.write("nguyenphamquangvinh1210@gmail.com")
-        cv_path = '/Users/vinhnguyen/Downloads/Quang Vinh _CV.docx (2).pdf'
+        cv_path = 'Quang Vinh _CV.docx (2).pdf'
 
         
         # Open the CV file in binary mode
