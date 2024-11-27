@@ -1,7 +1,1 @@
-# portfolio
-# portfolio
-# digialresume
-# digialresume
-# digialresume
-# digialresume
-# digialresume
+digital resume
